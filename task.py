@@ -19,3 +19,4 @@ for i in result:
             petition.append(i["A"])
 print(citation)
 print(petition)
+print("the program ended")
