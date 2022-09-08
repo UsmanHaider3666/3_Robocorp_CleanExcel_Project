@@ -8,7 +8,7 @@ def read_excel_worksheet(path, worksheet):
     return lib.read_worksheet_as_table(worksheet)
 
 
-result = read_excel_worksheet("/home/usman/Downloads/EZ1-Mapping-File.xlsx", "Document Type")
+result = read_excel_worksheet("/home/usman/Python-RPA/3_Robocorp_CleanExcel_Project/EZ1-Mapping-File.xlsx", "Document Type")
 citation = []
 petition = []
 for i in result:
